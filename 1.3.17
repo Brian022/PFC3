@@ -1,0 +1,33 @@
+Collecting mmcv
+  Using cached mmcv-2.2.0.tar.gz (479 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: addict in c:\users\user\anaconda3\envs\openmmlab\lib\site-packages (from mmcv) (2.4.0)
+Requirement already satisfied: mmengine>=0.3.0 in c:\users\user\anaconda3\envs\openmmlab\lib\site-packages (from mmcv) (0.10.5)
+Requirement already satisfied: numpy in c:\users\user\anaconda3\envs\openmmlab\lib\site-packages (from mmcv) (1.24.3)
+Requirement already satisfied: packaging in c:\users\user\anaconda3\envs\openmmlab\lib\site-packages (from mmcv) (24.2)
+Requirement already satisfied: Pillow in c:\users\user\anaconda3\envs\openmmlab\lib\site-packages (from mmcv) (10.4.0)
+Requirement already satisfied: pyyaml in c:\users\user\anaconda3\envs\openmmlab\lib\site-packages (from mmcv) (6.0.2)
+Requirement already satisfied: yapf in c:\users\user\anaconda3\envs\openmmlab\lib\site-packages (from mmcv) (0.43.0)
+Requirement already satisfied: regex in c:\users\user\anaconda3\envs\openmmlab\lib\site-packages (from mmcv) (2024.11.6)
+Requirement already satisfied: matplotlib in c:\users\user\appdata\roaming\python\python38\site-packages (from mmengine>=0.3.0->mmcv) (3.3.2)
+Requirement already satisfied: rich in c:\users\user\anaconda3\envs\openmmlab\lib\site-packages (from mmengine>=0.3.0->mmcv) (13.4.2)
+Requirement already satisfied: termcolor in c:\users\user\anaconda3\envs\openmmlab\lib\site-packages (from mmengine>=0.3.0->mmcv) (2.4.0)
+Requirement already satisfied: opencv-python>=3 in c:\users\user\anaconda3\envs\openmmlab\lib\site-packages (from mmengine>=0.3.0->mmcv) (4.10.0.84)
+Requirement already satisfied: platformdirs>=3.5.1 in c:\users\user\anaconda3\envs\openmmlab\lib\site-packages (from yapf->mmcv) (4.3.6)
+Requirement already satisfied: tomli>=2.0.1 in c:\users\user\anaconda3\envs\openmmlab\lib\site-packages (from yapf->mmcv) (2.2.1)
+Requirement already satisfied: certifi>=2020.06.20 in c:\users\user\anaconda3\envs\openmmlab\lib\site-packages (from matplotlib->mmengine>=0.3.0->mmcv) (2024.12.14)
+Requirement already satisfied: cycler>=0.10 in c:\users\user\anaconda3\envs\openmmlab\lib\site-packages (from matplotlib->mmengine>=0.3.0->mmcv) (0.12.1)
+Requirement already satisfied: kiwisolver>=1.0.1 in c:\users\user\anaconda3\envs\openmmlab\lib\site-packages (from matplotlib->mmengine>=0.3.0->mmcv) (1.4.7)
+Requirement already satisfied: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.3 in c:\users\user\anaconda3\envs\openmmlab\lib\site-packages (from matplotlib->mmengine>=0.3.0->mmcv) (3.1.4)
+Requirement already satisfied: python-dateutil>=2.1 in c:\users\user\anaconda3\envs\openmmlab\lib\site-packages (from matplotlib->mmengine>=0.3.0->mmcv) (2.9.0.post0)
+Requirement already satisfied: markdown-it-py>=2.2.0 in c:\users\user\anaconda3\envs\openmmlab\lib\site-packages (from rich->mmengine>=0.3.0->mmcv) (3.0.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in c:\users\user\anaconda3\envs\openmmlab\lib\site-packages (from rich->mmengine>=0.3.0->mmcv) (2.18.0)
+Requirement already satisfied: typing-extensions<5.0,>=4.0.0 in c:\users\user\anaconda3\envs\openmmlab\lib\site-packages (from rich->mmengine>=0.3.0->mmcv) (4.11.0)
+Requirement already satisfied: mdurl~=0.1 in c:\users\user\anaconda3\envs\openmmlab\lib\site-packages (from markdown-it-py>=2.2.0->rich->mmengine>=0.3.0->mmcv) (0.1.2)
+Requirement already satisfied: six>=1.5 in c:\users\user\anaconda3\envs\openmmlab\lib\site-packages (from python-dateutil>=2.1->matplotlib->mmengine>=0.3.0->mmcv) (1.17.0)
+Building wheels for collected packages: mmcv
+  Building wheel for mmcv (setup.py): started
+  Building wheel for mmcv (setup.py): finished with status 'error'
+  Running setup.py clean for mmcv
+Failed to build mmcv
